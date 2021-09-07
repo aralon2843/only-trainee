@@ -1,0 +1,24 @@
+.input {
+    $root: &;
+    position: relative;
+    display: block;
+
+    input {
+        width: 100%;
+        color: $black;
+        font-size: 16px;
+        line-height: 1.2;
+        border: 1px solid $black;
+        padding: 6px 16px;
+        
+
+        &::placeholder {
+            color: $gray;
+            font-size: 16px;
+        }
+        &__label {
+            margin-bottom: 10px;
+            padding-left: 6px;
+        }
+    }
+}
